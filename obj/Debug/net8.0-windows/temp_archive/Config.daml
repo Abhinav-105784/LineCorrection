@@ -1,0 +1,42 @@
+﻿<ArcGIS defaultAssembly="LineCorrection.dll" defaultNamespace="LineCorrection" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{853e7041-46a7-4379-8cda-9a92ecf607f2}" version="1.1" desktopVersion="3.4.55405" product="ArcGISPro">
+    <Name>LineCorrection</Name>
+    <Description>LineCorrection description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>goswamia0490</Author>
+    <Company>Acme</Company>
+    <Date>1/7/2026 4:50:49 PM</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="LineCorrection_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="LineCorrection_Tab1" caption="New Tab">
+          <group refID="LineCorrection_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="LineCorrection_Group1" caption="Line Smoothening Tools" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="LineCorrection_SmoothenLines_ShowButton" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="LineCorrection_SmoothenLines_ShowButton" caption="Show SmoothenLines" className="SmoothenLines_ShowButton" loadOnClick="true" smallImage="GenericButtonPurple16" largeImage="GenericButtonPurple32">
+          <tooltip heading="Load Line smoothening Tool"> Line Smoothening Dockpane<disabledText /></tooltip>
+        </button>
+      </controls>
+      <dockPanes>
+        <dockPane id="LineCorrection_SmoothenLines" caption="SmoothenLines" className="SmoothenLinesViewModel" dock="group" dockWith="esri_core_projectDockPane">
+          <content className="SmoothenLinesView" />
+        </dockPane>
+      </dockPanes>
+    </insertModule>
+  </modules>
+</ArcGIS>
