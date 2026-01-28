@@ -3,27 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\goswamia0490\\OneDrive - ARCADIS\\Arcgis Addins\\LineCorrection\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4648EF6E-0E8D-4EDE-8186-A7474F5CFE73}|LineCorrection.csproj|c:\\users\\goswamia0490\\onedrive - arcadis\\arcgis addins\\linecorrection\\processingalllines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4648EF6E-0E8D-4EDE-8186-A7474F5CFE73}|LineCorrection.csproj|solutionrelative:processingalllines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4648EF6E-0E8D-4EDE-8186-A7474F5CFE73}|LineCorrection.csproj|c:\\users\\goswamia0490\\onedrive - arcadis\\arcgis addins\\linecorrection\\smoothenlines.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4648EF6E-0E8D-4EDE-8186-A7474F5CFE73}|LineCorrection.csproj|solutionrelative:smoothenlines.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4648EF6E-0E8D-4EDE-8186-A7474F5CFE73}|LineCorrection.csproj|c:\\users\\goswamia0490\\onedrive - arcadis\\arcgis addins\\linecorrection\\getlinelayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4648EF6E-0E8D-4EDE-8186-A7474F5CFE73}|LineCorrection.csproj|solutionrelative:getlinelayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4648EF6E-0E8D-4EDE-8186-A7474F5CFE73}|LineCorrection.csproj|c:\\users\\goswamia0490\\onedrive - arcadis\\arcgis addins\\linecorrection\\smoothenlines.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4648EF6E-0E8D-4EDE-8186-A7474F5CFE73}|LineCorrection.csproj|solutionrelative:smoothenlines.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4648EF6E-0E8D-4EDE-8186-A7474F5CFE73}|LineCorrection.csproj|c:\\users\\goswamia0490\\onedrive - arcadis\\arcgis addins\\linecorrection\\config.daml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{4648EF6E-0E8D-4EDE-8186-A7474F5CFE73}|LineCorrection.csproj|solutionrelative:config.daml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4648EF6E-0E8D-4EDE-8186-A7474F5CFE73}|LineCorrection.csproj|c:\\users\\goswamia0490\\onedrive - arcadis\\arcgis addins\\linecorrection\\processingalllines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4648EF6E-0E8D-4EDE-8186-A7474F5CFE73}|LineCorrection.csproj|solutionrelative:processingalllines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\goswamia0490\\Downloads\\sample.cs\\sample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4648EF6E-0E8D-4EDE-8186-A7474F5CFE73}|LineCorrection.csproj|c:\\users\\goswamia0490\\onedrive - arcadis\\arcgis addins\\linecorrection\\smoothenlines.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4648EF6E-0E8D-4EDE-8186-A7474F5CFE73}|LineCorrection.csproj|solutionrelative:smoothenlines.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4648EF6E-0E8D-4EDE-8186-A7474F5CFE73}|LineCorrection.csproj|c:\\users\\goswamia0490\\onedrive - arcadis\\arcgis addins\\linecorrection\\getlinelayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4648EF6E-0E8D-4EDE-8186-A7474F5CFE73}|LineCorrection.csproj|solutionrelative:getlinelayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4648EF6E-0E8D-4EDE-8186-A7474F5CFE73}|LineCorrection.csproj|c:\\users\\goswamia0490\\onedrive - arcadis\\arcgis addins\\linecorrection\\smoothenlinesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,19 +45,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ProcessingAllLines.cs",
               "DocumentMoniker": "C:\\Users\\goswamia0490\\OneDrive - ARCADIS\\Arcgis Addins\\LineCorrection\\ProcessingAllLines.cs",
               "RelativeDocumentMoniker": "ProcessingAllLines.cs",
               "ToolTip": "C:\\Users\\goswamia0490\\OneDrive - ARCADIS\\Arcgis Addins\\LineCorrection\\ProcessingAllLines.cs",
               "RelativeToolTip": "ProcessingAllLines.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAG4AAABCAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAWwEIAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:26:15.464Z"
+              "WhenOpened": "2026-01-07T11:26:15.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Config.daml",
               "DocumentMoniker": "C:\\Users\\goswamia0490\\OneDrive - ARCADIS\\Arcgis Addins\\LineCorrection\\Config.daml",
               "RelativeDocumentMoniker": "Config.daml",
@@ -65,7 +66,8 @@
               "RelativeToolTip": "Config.daml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-01-07T11:20:53.007Z"
+              "WhenOpened": "2026-01-07T11:20:53.007Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -77,11 +79,12 @@
               "RelativeToolTip": "..\\..\\..\\Downloads\\sample.cs\\sample.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAAH0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T06:43:02.561Z"
+              "WhenOpened": "2026-01-14T06:43:02.561Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "GetLineLayers.cs",
               "DocumentMoniker": "C:\\Users\\goswamia0490\\OneDrive - ARCADIS\\Arcgis Addins\\LineCorrection\\GetLineLayers.cs",
               "RelativeDocumentMoniker": "GetLineLayers.cs",
@@ -93,26 +96,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "SmoothenLines.xaml.cs",
               "DocumentMoniker": "C:\\Users\\goswamia0490\\OneDrive - ARCADIS\\Arcgis Addins\\LineCorrection\\SmoothenLines.xaml.cs",
               "RelativeDocumentMoniker": "SmoothenLines.xaml.cs",
               "ToolTip": "C:\\Users\\goswamia0490\\OneDrive - ARCADIS\\Arcgis Addins\\LineCorrection\\SmoothenLines.xaml.cs",
               "RelativeToolTip": "SmoothenLines.xaml.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwCsAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAWwEcAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:22:14.308Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SmoothenLines.xaml",
-              "DocumentMoniker": "C:\\Users\\goswamia0490\\OneDrive - ARCADIS\\Arcgis Addins\\LineCorrection\\SmoothenLines.xaml",
-              "RelativeDocumentMoniker": "SmoothenLines.xaml",
-              "ToolTip": "C:\\Users\\goswamia0490\\OneDrive - ARCADIS\\Arcgis Addins\\LineCorrection\\SmoothenLines.xaml",
-              "RelativeToolTip": "SmoothenLines.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-07T11:21:25.406Z",
+              "WhenOpened": "2026-01-07T11:22:14.308Z",
               "EditorCaption": ""
             },
             {
@@ -126,6 +118,18 @@
               "ViewState": "AgIAABoAAAAAAAAAAAAAwCsAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T11:21:20.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SmoothenLines.xaml",
+              "DocumentMoniker": "C:\\Users\\goswamia0490\\OneDrive - ARCADIS\\Arcgis Addins\\LineCorrection\\SmoothenLines.xaml",
+              "RelativeDocumentMoniker": "SmoothenLines.xaml",
+              "ToolTip": "C:\\Users\\goswamia0490\\OneDrive - ARCADIS\\Arcgis Addins\\LineCorrection\\SmoothenLines.xaml",
+              "RelativeToolTip": "SmoothenLines.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-07T11:21:25.406Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -9,27 +9,27 @@
              mc:Ignorable="d" 
              d:DesignHeight="250" d:DesignWidth="300"
              d:DataContext="{Binding Path=ui.SmoothenLinesViewModel}">
-  <UserControl.Resources>
-    <ResourceDictionary>
-      <ResourceDictionary.MergedDictionaries>
-        <extensions:DesignOnlyResourceDictionary Source="pack://application:,,,/ArcGIS.Desktop.Framework;component\Themes\Default.xaml"/>
-      </ResourceDictionary.MergedDictionaries>
-    </ResourceDictionary>
-  </UserControl.Resources>
-  <Grid>
-    <Grid.RowDefinitions>
-      <RowDefinition Height="Auto"/>
-      <RowDefinition Height="*"/>
-    </Grid.RowDefinitions>
-    <DockPanel Grid.Row="0" LastChildFill="true" KeyboardNavigation.TabNavigation="Local" Height="30">
-      <TextBlock Text="{Binding Heading}" Style="{DynamicResource Esri_TextBlockDockPaneHeader}">
-        <TextBlock.ToolTip>
-          <WrapPanel Orientation="Vertical" MaxWidth="300">
-            <TextBlock Text="{Binding Heading}" TextWrapping="Wrap"/>
-          </WrapPanel>
-        </TextBlock.ToolTip>
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <extensions:DesignOnlyResourceDictionary Source="pack://application:,,,/ArcGIS.Desktop.Framework;component\Themes\Default.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <DockPanel Grid.Row="0" LastChildFill="true" KeyboardNavigation.TabNavigation="Local" Height="30">
+            <TextBlock Text="{Binding Heading}" Style="{DynamicResource Esri_TextBlockDockPaneHeader}">
+                <TextBlock.ToolTip>
+                    <WrapPanel Orientation="Vertical" MaxWidth="300">
+                        <TextBlock Text="{Binding Heading}" TextWrapping="Wrap"/>
+                    </WrapPanel>
+                </TextBlock.ToolTip>
       </TextBlock>
-    </DockPanel>
+        </DockPanel>
         <Grid Grid.Row="1" Margin="10">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -48,19 +48,21 @@
 
             <TextBlock Grid.Row="0" Text="Select Layer" FontWeight="Bold" Margin="0,0,0,5"/>
             <ComboBox Grid.Row="1" x:Name="SelectLayerComboBox" Height="25" Padding="5" SelectionChanged="SelectLineLayers"/>
-            <StackPanel Grid.Row="3" HorizontalAlignment="Center">
-                <TextBlock Text="Provide Angle" Margin="0,0,0,5" HorizontalAlignment="Center"/>
-                <TextBox x:Name="AngleProvided" Width="100" Height="25" Padding="5" TextChanged="AngleProvided_TextChanged"/>
-            </StackPanel>
+            <StackPanel Grid.Row="3" HorizontalAlignment="Center"/>
             <Grid Grid.Row="5">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Button Grid.Column="0" Content="Run" Height="30" Margin="5" Click="RunButton_Click" x:Name="Run"/>
-                <Button Grid.Column="1" Content="Close" Height="30" Margin="5" Click="CloseButton_Click" x:Name="Close"/>
+                <Button Grid.Column="0" Content="Run" Height="30" Margin="7,-36,3,46" Click="RunButton_Click" x:Name="Run"/>
+                <Button Grid.Column="1" Content="Close" Height="30" Margin="2,-36,8,46" Click="CloseButton_Click" x:Name="Close"/>
+                <Label Content="For Any Query Contact: abhinavgoswam@arcadis.com" FontFamily="Arial" FontSize="8" Cursor="AppStarting" Grid.ColumnSpan="2" Margin="0,0,45,0"/>
             </Grid>
+            <TextBox x:Name="AngleProvided" Padding="5" TextChanged="AngleProvided_TextChanged" Margin="27,36,200,61" Grid.RowSpan="3" Grid.Row="2"/>
+            <TextBlock Text="Provide Angle" Margin="16,15,185,30" Grid.Row="2"/>
+            <TextBox x:Name="BufferProvided" Padding="5" TextChanged="AngleProvided_TextChanged" Margin="160,36,67,61" Grid.RowSpan="3" Grid.Row="2"/>
+            <TextBlock Text="Provide Buffer" Margin="147,15,54,30" Grid.Row="2"/>
 
         </Grid>
     </Grid>

@@ -54,6 +54,12 @@ namespace LineCorrection
                 MessageBox.Show("Please select a line layer"); return;
             }
 
+            if(!double.TryParse(BufferProvided.Text, out double buffer))
+            {
+                MessageBox.Show("Invalid Buffer Value Provided");
+                return;
+            }
+
             if (!double.TryParse(AngleProvided.Text, out double angle))
             {
                 MessageBox.Show("Invalid angle Value");
@@ -63,7 +69,7 @@ namespace LineCorrection
             // again running this process in background thread to prevent arcgis from hanging
             await QueuedTask.Run(() =>
             {
-                ProcessingAllLines.ProcessLayer(layer, angle);
+                ProcessingAllLines.ProcessLayer(layer, angle, buffer);
             });
             CloseButton_Click(sender, e);
         }

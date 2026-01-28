@@ -23,7 +23,7 @@ namespace LineCorrection
     {
         public ProcessingAllLines() { }
 
-        public static async Task<FeatureLayer> ProcessLayer(FeatureLayer layer, double angleThreshold)
+        public static async Task<FeatureLayer> ProcessLayer(FeatureLayer layer, double angleThreshold, double bufferValue)
         {
             var polylines = new List<ArcGIS.Core.Geometry.Polyline>();
             using (Table table = layer.GetTable())
@@ -64,7 +64,7 @@ namespace LineCorrection
             var buffers = new List<ArcGIS.Core.Geometry.Geometry>();
             foreach (var point in hasAngleLessthanThreshold)
             {
-                var buffer = GeometryEngine.Instance.Buffer(point, 1.5);
+                var buffer = GeometryEngine.Instance.Buffer(point, bufferValue);
                 if (buffer != null) buffers.Add(buffer);
             }
             MessageBox.Show($"Total buffers created {buffers.Count}");
