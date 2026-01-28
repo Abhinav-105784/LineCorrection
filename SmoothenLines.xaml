@@ -57,7 +57,7 @@
 
                 <Button Grid.Column="0" Content="Run" Height="30" Margin="7,-36,3,46" Click="RunButton_Click" x:Name="Run"/>
                 <Button Grid.Column="1" Content="Close" Height="30" Margin="2,-36,8,46" Click="CloseButton_Click" x:Name="Close"/>
-                <Label Content="For Any Query Contact: abhinavgoswam@arcadis.com" FontFamily="Arial" FontSize="8" Cursor="AppStarting" Grid.ColumnSpan="2" Margin="0,0,45,0"/>
+                <Label Content="For Any Query Contact: abhinavgoswami@arcadis.com" FontFamily="Arial" FontSize="8" Cursor="AppStarting" Grid.ColumnSpan="2" Margin="0,0,45,0"/>
             </Grid>
             <TextBox x:Name="AngleProvided" Padding="5" TextChanged="AngleProvided_TextChanged" Margin="27,36,200,61" Grid.RowSpan="3" Grid.Row="2"/>
             <TextBlock Text="Provide Angle" Margin="16,15,185,30" Grid.Row="2"/>
